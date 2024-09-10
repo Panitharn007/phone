@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<?xml-stylesheet type="text/xsl" href="product.xsl"?>
+
+<!DOCTYPE product [
+
+<!ELEMENT product (product_data)>
+
+<!ELEMENT product_data (product_code, product_name, product_details, product_price, product_quantity)>
+
+<!ELEMENT product_code (#PCDATA)>
+
+<!ELEMENT product_name (#PCDATA)>
+
+<!ELEMENT product_details (#PCDATA)>
+
+<!ELEMENT product_price (#PCDATA)>
+
+<!ELEMENT product_quantity (#PCDATA)>
+
+
+
+]>
+
+<product>
+
+    <product_data>
+
+        <product_code>001</product_code>
+
+        <product_name>โคบ๊ม</product_name>
+
+        <product_details>แบบปรุงแต่งชนิดเนื้อครามขาว 25 ก.</product_details>
+
+        <product_price>55-บาท</product_price>
+
+        <product_quantity>35</product_quantity>
+
+    </product_data>
+
+    <product_data>
+
+        <product_code>002</product_code>
+
+        <product_name>เนมคอล</product_name>
+
+        <product_details>ลูกอมรสมินต์ แบบอุจน์มิลค์ 48.6 ก.</product_details>
+
+        <product_price>59-บาท</product_price>
+
+        <product_quantity>22</product_quantity>
+
+    </product_data>
+
+    <product_data>
+
+        <product_code>003</product_code>
+
+        <product_name>โบรามา: โฮโฮ</product_name>
+
+        <product_details>ลูกอมรสมินต์ รสไพน์แอปเปิ้ล 57 ก.</product_details>
+
+        <product_price>80- บาท</product_price>
+
+        <product_quantity>25</product_quantity>
+
+    </product_data>
+
+    <product_data>
+
+        <product_code>004</product_code>
+
+        <product_name>วอลล์ เอ็กซ์ตร้า ฟรีซ</product_name>
+
+        <product_details>ลูกอมรสมินต์ใบสับสน น้ำตาล 12.6 ก.</product_details>
+
+        <product_price>50- บาท</product_price>
+
+        <product_quantity>25</product_quantity>
+
+    </product_data>
+
+    <product_data>
+
+        <product_code>005</product_code>
+
+        <product_name>เดนทีน ยุกทรีฟรี</product_name>
+
+        <product_details>วอลเตอร์มีลอนหมากฝรั่ง ปรสาทนำ้ตาล กลิ่นหอม 21.6 ก.</product_details>
+
+        <product_price>50- บาท</product_price>
+
+        <product_quantity>20</product_quantity>
+
+    </product_data>
+
+</product>
